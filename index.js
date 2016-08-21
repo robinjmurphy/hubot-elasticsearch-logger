@@ -3,6 +3,7 @@
 // Configuration:
 //   HUBOT_ELASTICSEARCH_LOGGER_HOST - The Elasticsearch host
 //   HUBOT_ELASTICSEARCH_LOGGER_PORT - The Elasticsearch port
+//   HUBOT_ELASTICSEARCH_LOGGER_INDEX - The Elasticsearch index to use for storing chats
 'use strict';
 
 const logger = require('./lib/logger');
