@@ -1,0 +1,39 @@
+{
+  "name": "hubot-elasticsearch-logger",
+  "version": "1.0.0",
+  "description": "Hubot script for logging chats to Elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "posttest": "eslint .",
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinjmurphy/hubot-elasticsearch-logger.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "elasticsearch",
+    "logger"
+  ],
+  "author": "robin@robinmurphy.co.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinjmurphy/hubot-elasticsearch-logger/issues"
+  },
+  "homepage": "https://github.com/robinjmurphy/hubot-elasticsearch-logger#readme",
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  },
+  "dependencies": {
+    "elasticsearch": "^11.0.1",
+    "lodash": "^4.15.0",
+    "moment": "^2.14.1"
+  }
+}
