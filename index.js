@@ -12,7 +12,7 @@ module.exports = (robot) => {
   robot.hear(/.+/, (res) => {
     const message = res.message;
 
-    // don't log prviate messages
+    // don't log private messages
     if (!message.room) return;
 
     const data = {
